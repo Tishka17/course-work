@@ -1,0 +1,19 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project usePreviewPrefix="0" previewPrefix="" type="Local" name="help" encoding="cp 1251" >
+    <upload/>
+    <author>Tishka17</author>
+    <email>tishka@tishka.tk</email>
+    <defaultDTD>-//W3C//DTD HTML 4.01 Transitional//EN</defaultDTD>
+    <item url="batch.html" uploadstatus="1" />
+    <item url="console.html" uploadstatus="1" />
+    <item url="index.html" uploadstatus="1" />
+    <item url="readdata.html" uploadstatus="1" />
+    <item url="short.html" uploadstatus="1" />
+    <item url="version.html" uploadstatus="1" />
+    <item url="" uploadstatus="1" />
+    <item url="template/" />
+    <item url="help.webprj" />
+    <item url="template/page.html" />
+  </project>
+</webproject>

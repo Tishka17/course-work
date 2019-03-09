@@ -1,0 +1,22 @@
+done:
+ echo
+ system
+ set
+ cd
+ ls
+ if else
+ call
+ goto
+ test
+ echo on|off
+ open
+ logecho
+ 
+ ResolveVariable
+ $resolve(x)
+ 
+not done:
+ test multiple expressions
+ set /A
+ help
+ 

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=windows-1251">
+   <meta name="Author" content="Tishka17">
+   <meta name="Robots" content="all">
+   <meta name="Keywords" content="">
+   <meta name="Description" content="">
+   <title></title>
+</head>
+<body text="#000000" bgcolor="#cccccc" background="">
+<table Border=0 CellSpacing=6 CellPadding=4 Width="100%" height="100%" Align="" vAlign="">
+ <tr height=20>
+  <td align="right" bgcolor="dddddd"><h5><a href="index.html">"Fractals analyzer"</a> >> <a href="short.html">Коротко</a></h5>   
+  </td>
+  </tr>   
+  <tr><td valign="top"  bgcolor="dddddd">
+<p><b>"Fractals analyzer"</b> это win32-приложение предназначенное для работы с изображениями. Возможности программы зависят от подключенных библиотек (плагинов), которые подключаются автоматически при загрузке программы. В отсутствиее каких либо плагинов приложение умеет лишь загружать изображение (из bmp-файла) и отображать его на экране. 
+<p>Все результаты работы программы выводятся в <b><a href="log.html">log-файл</a></b> в формате html, что позволяет просмотреть результаты многих действий, независим от того запущено приложение или уже закрыто. В log-файл выводятся такие данные, как имя выбранной функции, имя библиотеки, в которой она хранится; время работы функции (время расчета), возвращенное ей значение, а так же любая информация которую эта функция хочет записать в log. Кроме того выводятся сообщения об ошибках (в том числе невозможность загрузки каких либо функций или целых библиотек), сообщения об ошибках инициализации.            
+<p>Программа хранит свои настройки в файле <b><a href="settings.html">settings.ini</a></b>. Кроме того присутствует возможность локализации gui модуля программы, загружая соответствующий вашему языку <b><a href="language.html">language</a></b>-файл.
+<p>Сама программы поставляется в виде двух .exe файлов, четырех обязательных библиотек и возмодно нескольких плагинов.
+<ul> <li> <b>Exe</b> файлы:
+<ol> <li><b><a href="console.html">console.exe</a></b> - позволяет производить расчеты вводя команды с клавиатуры, а так же в пакетном режиме.
+  <li><b><a href="gui_.html">gui_.exe</a></b> - представляет собой программу с графическим интерфейсом, что позволяет увидеть на экране некоторые результаты работы (само изображение, графики и разные фигуры характеризующие изображение).
+  </ol>
+  <li><b>DLL</b> библиотеки:
+<ol> <li><b><a href="readdata.html">readdata.dll</a></b> - дает возможность загрузки изображений из файлов (пока только в формате bmp).
+<li> <b><a href="graphics_.html">graphics_.dll</a></b> - содержит функции по отрисовке картинки на экране.
+<li><b><a href="approximation.html">approximation.dll</a></b> - содержит методы апроксимации и экстраполяции
+<li> <b><a href="input.html">input.dll</a></b> - необходима для организации диалогов ввода данных.
+   </ol>         
+<li> Стандартные <b>плагины</b>:
+<ol><li><b><a href="filter.html">Filter</a></b> - даёт возможности для фильтрации картинки и наложения разных эффектов
+<li><b><a href="generator.html">Genrator</a></b> - генерирует некоторые стандартные фракталы
+<li><b><a href="randomwalk.html">RandomWalk</a></b> - генерирует случайные блуждания (моделирование процессов диффузии)
+<li><b><a href="dimension.html">Dimension</a></b> - расчитывает размерности фрактала.
+
+</ol>
+</ul>
+</td>
+ </tr> 
+  <tr height=20>
+  <td align="right" bgcolor="dddddd"><h5><a href="index.html">"Fractals analyzer"</a> >> <a href="short.html">Коротко</a></h5>   
+  </td>
+  </tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+ToDo ===========================================================================
+                        WIN32 APPLICATION: Fractals_***
+================================================================================
+
+
+
+                The Winapi Poor-Intellect Program
+                made by Tishka17 and Ftvkun
+                assistance (beer, music, chat, girls)
+                by Toxa.su aka heil0 and =ValKir= aka Sir Waller
+
+
+Global:
+   help files
+   refresh console and batch help concerning new script language
+   loading pictures using different dlls
+   add resolving absolute paths to auto scripts
+   add script menu like plugins menu
+   add output vector graphics
+   
+Script:
+   more autoscripts
+   add OnOpenPicture script work in console
+   add Result, Date, Time and other global variables
+   add testing of file existence
+   fix arithmetic calculations
+   
+plugins':
+   exporting plugin (probably)
+   settings
+   need new ways of using plugins
+   add nuber of points in front option in walking plugin
+   
+input:
+   checkboxes and dropdown-boxes, choosefile dialogs and other ways of input data
+   
+GUI_:
+   more hotkeys
+   change drawing of graphics when graphics_.dll is updated
+   settings dialog
+   add animation
+   
+Readdata.dll:
+   add .gif, .jpg and others formats reading
+   add picture saving
+   remove message boxes
+   
+graphics_.dll:
+   add drawing different graphics at the same time
+   add drawinf of more line types in layers
+   optimize drawing
+   add zooming
