@@ -1,0 +1,1 @@
+#this is script runing automatically when user closes application
